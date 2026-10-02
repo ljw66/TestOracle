@@ -78,7 +78,7 @@ def generate_oracle(function_doc, function_code, function_pure_code, function_si
             )
         case 2:
             prompt = PROMPT_NO_DOC.format(
-                function_pure_code=function_pure_code,
+                function_code=function_code,
                 function_sig=function_sig,
                 test_sig=test_sig,
                 prefix=prefix
