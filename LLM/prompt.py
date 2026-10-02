@@ -38,7 +38,7 @@ Requirements:
 5. Do NOT repeat the test prefix.
 
 Function Code:
-{function_pure_code}
+{function_code}
 
 Function Signature:
 {function_sig}
