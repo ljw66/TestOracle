@@ -8,7 +8,7 @@ from oracle_fix.OracleCompare.assertion_normalizer import (
     extract_assertion_calls, normalize, structurally_equal, canonical_expr,
     expand_compound_array_assertion, NormalizedAssertion,
 )
-from OracleCompareLLM.semantic_equivalence import check_equivalence
+from oracle_fix.OracleCompare.semantic_equivalence import check_equivalence
 
 MATCH_LEVEL_EXACT = "完全一致"
 MATCH_LEVEL_REF_SUBSET_OF_GEN = "答案是生成用例的子集"
