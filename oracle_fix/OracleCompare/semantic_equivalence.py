@@ -2,7 +2,7 @@
 """Conservative optional Z3 fallback for assertion semantic equivalence."""
 from typing import Dict, Tuple
 from pycparser import c_ast
-from OracleCompareLLM.assertion_normalizer import NormalizedAssertion, parse_c_expr
+from oracle_fix.OracleCompare.assertion_normalizer import NormalizedAssertion, parse_c_expr
 
 try:
     import z3
